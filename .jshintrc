@@ -1,0 +1,29 @@
+{
+  // Enforcing Options - http://jshint.com/docs/options/
+  "bitwise": true,
+  //"camelcase": true, // depricated - using jscs
+  "curly": true,
+  "eqeqeq": true,
+  "es3": false,
+  //"es5": true,
+  "forin": true,
+  "freeze": true,
+  //"immed": true, // depricated - using jscs
+  //"indent": 2, // depricated - using jscs
+  "latedef": true,
+  //"newcap": false, // depricated - using jscs
+  "nocomma": false,
+  "nonew": true,
+  //"quotmark": "single", // depricated - using jscs
+  "undef": true,
+  "unused": true,
+
+  // Library Globals
+  "browser": true,
+  "devel": true, // e.g. alert and console
+  "jquery": true,
+  "mocha": true,
+  "node": true,
+
+  "predef": ["angular", "app"]
+}
